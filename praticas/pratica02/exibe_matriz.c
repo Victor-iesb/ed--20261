@@ -31,7 +31,7 @@ int main(){
     }
 
     fim = clock();
-    TempoAninhado =T((double) (fim - inicio)) / CLOCKS_PER_SEC;
+    TempoAninhado =((double) (fim - inicio)) / CLOCKS_PER_SEC;
 
     int *PonteiroDaMatriz = &Matriz[0][0]; 
     
